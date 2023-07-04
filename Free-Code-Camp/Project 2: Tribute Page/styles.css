@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    font-family: poppins,sans-serif;
+    font-weight: bolder;
+}
+
+/* top */
+
+figure{
+    display: flex;
+    justify-content: center;
+}
+main{
+
+    font-size: 19px;
+    align-items: center;
+    
+}
+#title{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    background-color: grey;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#title>h1{
+    margin:0px 0px;
+    font-weight: bold;
+}
+#title>p
+{
+    margin: 0px;
+    font-size: 16px;
+}
+#image{
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+#image:hover{
+    transform: scale(1.04);
+}
+#img-caption
+{
+    margin: 0px;
+    position: relative;
+    top:-10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* The main content */
+
+#tribute-info{
+    margin: 0 23%;
+}
+#tribute-info>h2{
+    margin: 0px;
+}
+.about{
+
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    margin: 10px;
+}
+
+.work{
+
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+}
+.honor{
+
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#in-info{
+    width: 250px;
+
+    border-radius: 15px;
+    object-fit: contain;
+    margin: auto;
+}
+#in-info:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 10px; 
+    }
+    #in-info{
+        display: block;
+        max-width: 200px;
+        max-height: auto;
+        flex-wrap: wrap;
+      }
+    .work{
+        flex-direction: column;
+        justify-content: center;
+    }
+    iframe{
+        border-radius: 15px;
+        display: block;
+        max-width: 200px;
+        max-height: 420px;
+        flex-wrap: wrap;
+    }
+    #image{
+        border-radius: 15px;
+        display: block;
+    }
+    body>footer{
+        font-size: 10px;
+    }
+  }
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+.pip
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer
+{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+    background-color: grey;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer>p{
+    top: 30px;
+}
+iframe{
+    border-radius: 15px;
+}
+.quote>h3
+{
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(200, 203, 206);
+}
